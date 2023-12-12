@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #36454f;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+main {
+    max-width: 1232px;
+    background-color: #36454f;
+    color: #fff;
+    margin: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-size: 20px;
+    height: 7vh;
+
+}
+
+
+header div {
+    padding-left: 60px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+
+
+}
+
+header ul li {
+    padding: 16px;
+}
+
+header ul li:hover {
+    cursor: pointer;
+}
+
+.intro {
+    display: flex;
+    padding: 60px 15px 0px;
+    justify-content: space-between;
+    height: 820px;
+
+}
+
+.intro_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 40px;
+    height: 470px;
+
+}
+
+.name {
+    padding-left: 60px;
+    font-size: 70px;
+}
+
+.degree {
+    display: flex;
+    align-items: end;
+    font-size: 40px;
+    height: 570px;
+    letter-spacing: 2px;
+}
+
+.about {
+    display: flex;
+    padding: 60px 15px;
+    align-items: center;
+    height: 820px;
+    border-top: solid 1px red;
+    border-bottom: solid 1px red;
+}
+
+.about_image {
+    border: solid;
+    border-width: 0 calc(100% / 4) 0 calc(100% / 4);
+}
+
+.about_info {
+    display: flex;
+    padding-left: 80px;
+
+}
+
+.about_info_box {
+    padding-right: 60px;
+    width: 90%;
+    letter-spacing: 2px;
+}
+
+.about_info_box h3 {
+    font-size: 35px;
+    padding-bottom: 15px;
+
+}
+
+.about_info_box p {
+    font-size: 18px;
+}
+
+.tools {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 15px;
+    align-items: center;
+    height: 820px;
+    border-bottom: solid 1px red;
+}
+
+.tools_title {
+    font-size: 35px;
+    padding-top: 15px;
+    height: 20%;
+}
+
+.tools_icons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    height: 80%;
+    width: 80%;
+}
+
+.tools_icons img {
+    padding: 30px;
+    height: 120px;
+    width: 160px;
+    object-fit: contain;
+
+}
+
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 15px;
+    height: 820px;
+    border-bottom: solid 1px red;
+}
+
+.experiencia h2 {
+    text-align: center;
+    height: 10%;
+    letter-spacing: 2px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    height: 93%;
+}
+
+.experiencia_1,
+.experiencia_2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.experiencia img {
+    padding: 30px;
+    height: 400px;
+    width: 300px;
+    object-fit: contain;
+    border: solid;
+}
+.mirkwood{}
+.experiencia_1 h3,
+.experiencia_2 h3 {
+    letter-spacing: 3px;
+}
+
+
+.contact {
+    display: flex;
+    align-items: center;
+    height: 500px;
+
+}
+
+.contact_1 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact_icons {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: 60%;
+    text-align: center;
+
+
+}
+
+.contact_1 h3,
+.contact_2 h3 {
+    letter-spacing: 3px;
+}
+
+.contact_icons a {
+    margin: auto;
+    font-size: 40px;
+    color: #fff;
+}
+
+.contact_icons i:hover {
+    cursor: pointer;
+}
+
+.contact_2 {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 60%;
+
+
+}
+
+form input,
+form button {
+    padding: 10px;
+    margin: 15px 0px;
+    box-sizing: border-box;
+}
+
+form textarea {
+    padding: 23px;
+    margin: 15px 0px;
+}
+
+form button {
+    width: 100%;
+    margin: auto;
+    font-size: 19px;
+
+}
+
+form button:hover {
+    cursor: pointer;
+}
+
+hr {
+    height: 50%;
+}
