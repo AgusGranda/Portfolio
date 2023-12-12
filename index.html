@@ -15,13 +15,13 @@
     <main class="main">
         <header>
             <div>
-                <p>AG.</p>
+                <p>FG.</p>
             </div>
             <ul>
-                <li>About</li>
-                <li>Herramientas</li>
-                <li>Experiencia</li>
-                <li>Contacto</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#formacion">Formacion</a></li>
+                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </header>
 
@@ -29,7 +29,7 @@
             <div class="intro_info">
                 <div class="name">
                     <p>Soy</p>
-                    <h1>Agustin <br> Granda</h1>
+                    <h1>Federico <br> Granda</h1>
                 </div>
 
             </div>
@@ -39,89 +39,140 @@
 
         </section>
 
-        <section class="about">
+        <section class="about" id="about">
             <div class="about_image">
                 <img src="images/profile.png" alt="profile picture">
             </div>
             <div class="about_info">
                 <div class="about_info_box">
                     <h3>Sobre mi</h3>
-                    <p>Soy Agus, una persona entusiasta y apasionada por el aprendizaje continuo, estudiante
-                        de Análisis de Sistemas y vivo en Buenos Aires. <br>
+                    <p>Soy Federico, una persona entusiasta y apasionada por el aprendizaje continuo, estudiante
+                        autodidacta y vivo en Buenos Aires. <br>
 
                         Actualmente me encuentro trabajando en un emprendimiento personal junto a mi pareja además de
-                        estar capacitándome en el desarrollo web. <br>
+                        estar capacitándome en el desarrollo web.<br>
 
-                        Inicialmente, decidí estudiar contabilidad y durante tres años me dediqué a esta disciplina. Sin
+                        Inicialmente, decidí estudiar contabilidad y durante tres años me dediqué a esta disciplina, sin
                         embargo, mi verdadera pasión siempre fue la programación. <br>
 
-                        Finalmente tomé la decisión de adentrarme en el mundo de la programación y así fue como completé
+                        Finalmente tomé la decisión de adentrarme en este mundo y así fue como completé
                         un curso de Desarrollador web Full Stack, donde adquirí conocimientos en diversas tecnologías y
-                        herramientas. Además decidí continuar mi crecimiento profesional estudiando en la
-                        tecnicatura en análisis de sistemas.</p>
+                        herramientas. Además decidí continuar mi crecimiento profesional adentrandome en el mundo del Back-End estudiando C# en .Net.</p>
                 </div>
             </div>
 
         </section>
-        <section class="tools">
+        <section class="tools" id="formacion">
             <div class="tools_title">
-                <h3>Herramientas</h3>
+                <h3>Formación</h3>
             </div>
             <div class="tools_icons">
-                <img src="images/js.png" alt="js icon">
+                <div class="estudio" >
+                    <div class="institucion">
+                        <p>Inglés como lengua extranjera </p>
+                        <a href="" target="_blank">Red Box</a>
+                    </div>
+                    <p>
+                        Inicio: 2022 <br>
+                        Fin: 2026
+                    </p>
+                </div>
+                <div class="estudio">
+                    <div> 
+                        <p>Desarrollo Web FullStack</p>
+                        <a href="https://www.digitalhouse.com/ar" target="_blank">Digital House</a>
+                    </div>
+                    <p>
+                        Inicio: 2022 <br>
+                        Fin: 2023
+                    </p>
+                </div>
+                <div class="estudio">
+                    <div>
+                        <p>Desarrollo .Net</p>
+                        <a href="https://maxiprograma.com/" target="_blank">MaxiPrograma</a>
+                    </div>
+                    <p>
+                        Inicio: 2023 <br>
+                        Fin: 2024
+                    </p> 
+                </div>
+                <div class="estudio"> 
+                    <div>
+                        <p>Analista de Sistemas</p>
+                        <a href="http://isft182.edu.ar/" target="_blank">Instituto Superior de Formación Técnica Nº 182</a>
+                    </div>
+                    <p>
+                        Inicio: 2024 <br>
+                        Fin: 2026
+                    </p>
+                 </div>
+                <!-- <img src="images/js.png" alt="js icon">
                 <img src="images/html.png" alt="html icon">
                 <img src="images/css.png" alt="css icon">
                 <img src="images/git.png" alt="git icon">
                 <img src="images/node.png" alt="node icon">
                 <img src="images/react.png" alt="react icon">
-                <img src="images/sql.png" alt="sql icon">
+                <img src="images/sql.png" alt="sql icon"> -->
                 <!-- <img src="/images/CS.png" alt="CS icon"> -->
             </div>
         </section>
-        <section class="experiencia">
+        <section class="experiencia" id="experiencia">
             <h2>Experiencias profesionales</h2>
             <div class="content">
                 <div class="experiencia_1">
-
-                    <img src="images/logo.png" alt="Logo Gaming_pass">
-
+                    <a class="enlaces" href="https://github.com/emiliovernet/grupo_7_Gaming-Pass.git" target="_blank"><img src="images/logo.png" alt="Logo Gaming_pass"></a>
                     <h3>Proyecto Gaming Pass</h3>
 
-                    <p>
-                        Desarrollo de un E-commerce en el cual me encargue de: Maquetación y diseño de la pagina web,
-                        Implementando en el desarrollo buenas prácticas, manejo de Fetch.
-                        Registro-login del usuario, uso de Session, implementación de
-                        validaciones en formularios del lado del Back-end y del Front-end, interfaz para la
-                        subida de productos, diseño e implementación de base de datos para el manejo de la información y
-                        la data del sitio.
-                        El proyecto se desarrolló utilizando Express.js utilizando patrones de
-                        diseño MVC, siguiendo los lineamientos de Metodologías Ágiles (Scrum) y se utilizó
-                        Git para control de versiones.
-                    </p>
+                    <div class="tecnoLabel-container">
+                        <p class="tecnoLabel">HTML</p>
+                        <p class="tecnoLabel">CSS</p>
+                        <p class="tecnoLabel">Javascript</p>
+                        <p class="tecnoLabel">Node.js</p>
+                        <p class="tecnoLabel">Express.js</p>
+                        <p class="tecnoLabel">MySQL</p>
+                        <p class="tecnoLabel">Sequelize</p>
+                        <p class="tecnoLabel">MVC</p>
+                    </div>
                 </div>
                 <div class="experiencia_2">
-                    <img class="mirkwood" src="images/mirkwood.png" alt="Logo Cv">
+                    <a class="enlaces" href="https://github.com/AgusGranda/MirkWood.git" target="_blank"><img class="mirkwood" src="images/mirkwood.png" alt="Logo Cv"></a>
+                    
                     <h3>Proyecto Mirkwood</h3>
-                    <p>
-                        Desarrollo de un E-commerce en el cual me encargue de: Maquetación y diseño de la pagina web,
-                        Implementando en el desarrollo buenas prácticas, manejo de Fetch.
-                        Registro-login del usuario, uso de Session, implementación de
-                        validaciones en formularios del lado del Back-end y del Front-end, interfaz para la
-                        subida de productos, diseño e implementación de base de datos para el manejo de la información y
-                        la data del sitio.
-                        El proyecto se desarrolló utilizando Express.js utilizando patrones de
-                        diseño MVC, siguiendo los lineamientos de Metodologías Ágiles (Scrum) y se utilizó
-                        Git para control de versiones.
+                    <div class="tecnoLabel-container">
+                        <p class="tecnoLabel">HTML</p>
+                        <p class="tecnoLabel">CSS</p>
+                        <p class="tecnoLabel">Javascript</p>
+                        <p class="tecnoLabel">Node.js</p>
+                        <p class="tecnoLabel">Express.js</p>
+                        <p class="tecnoLabel">MySQL</p>
+                        <p class="tecnoLabel">Sequelize</p>
+                        <p class="tecnoLabel">MVC</p>
+                    </div>
+                </div>
+                <div class="experiencia_2">
+                    <a class="enlaces" href="https://github.com/AgusGranda/TPFinal_Curso2.git" target="_blank"><img src="images/articulos.PNG" alt="Logo Cv"></a>
+                    
+                    <h3>Proyecto Carga de Articulos</h3>
+                    <div class="tecnoLabel-container">
+                        <p class="tecnoLabel">Visual Studio</p>
+                        <p class="tecnoLabel">C#</p>
+                        <p class="tecnoLabel">POO</p>
+                        <p class="tecnoLabel">WinForm</p>
+                        <p class="tecnoLabel">SQLServer</p>
+                        <p class="tecnoLabel">ADO.Net</p>
+                        <p class="tecnoLabel">.Net Framework</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <footer class="contact">
+        <footer class="contact" id="contacto">
             <div class="contact_1">
                 <h3>Redes</h3>
                 <div class="contact_icons">
                     <a href="https://www.instagram.com/agus.granda/" target="_blanc"><i
                             class="fa-brands fa-instagram"></i></a>
-                    <a href="https://www.linkedin.com/in/federico-granda-murua/" target="_blanc"><i
+                    <a href="https://www.linkedin.com/in/federicogranda/" target="_blanc"><i
                             class="fa-brands fa-linkedin"></i></a>
                     <a href="https://github.com/AgusGranda" target="_blanc"><i class="fa-brands fa-github"></i></a>
                 </div>
@@ -147,8 +198,6 @@
         </footer>
     </main>
 
-
-    <script src=""></script>
 </body>
 
 </html>

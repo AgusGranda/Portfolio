@@ -43,8 +43,10 @@ header ul {
 
 }
 
-header ul li {
+header ul li a {
     padding: 16px;
+    color: white;
+    text-decoration:  none;
 }
 
 header ul li:hover {
@@ -85,7 +87,7 @@ header ul li:hover {
     display: flex;
     padding: 60px 15px;
     align-items: center;
-    height: 820px;
+    height: 600px;
     border-top: solid 1px red;
     border-bottom: solid 1px red;
 }
@@ -93,11 +95,20 @@ header ul li:hover {
 .about_image {
     border: solid;
     border-width: 0 calc(100% / 4) 0 calc(100% / 4);
+    width: 40%;
+    height: 80%;
+}
+.about_image img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    margin: auto 0;
 }
 
 .about_info {
     display: flex;
     padding-left: 80px;
+    width: 50%;
 
 }
 
@@ -122,7 +133,7 @@ header ul li:hover {
     flex-direction: column;
     padding: 60px 15px;
     align-items: center;
-    height: 820px;
+    height: 450px;
     border-bottom: solid 1px red;
 }
 
@@ -134,11 +145,27 @@ header ul li:hover {
 
 .tools_icons {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
     flex-wrap: wrap;
     box-sizing: border-box;
+    margin: 0 auto;
     height: 80%;
     width: 80%;
+    font-size: 17px;
+}
+
+.estudio{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+.estudio a:visited{
+    color: white;
+    text-decoration: none;
 }
 
 .tools_icons img {
@@ -152,15 +179,17 @@ header ul li:hover {
 .experiencia {
     display: flex;
     flex-direction: column;
-    padding: 60px 15px;
-    height: 820px;
+    padding: 60px 12px;
+    height: 700px;
     border-bottom: solid 1px red;
 }
 
 .experiencia h2 {
     text-align: center;
-    height: 10%;
+    height: 12%;
+    padding-bottom: 17px;
     letter-spacing: 2px;
+    font-size: 35px;
 }
 
 .content {
@@ -173,21 +202,54 @@ header ul li:hover {
 .experiencia_2 {
     display: flex;
     flex-direction: column;
-    width: 40%;
-    justify-content: space-between;
+    width: 33%;
+    justify-content: space-around;
+}
+.enlaces{
+    color: white;
+    
+}
+.enlaces:visited{
+    color: white;
 }
 
-.experiencia img {
+.experiencia a {
     padding: 30px;
-    height: 400px;
-    width: 300px;
+    height: 280px;
+    width: 180px;
     object-fit: contain;
     border: solid;
+    margin: 0 auto;
 }
-.mirkwood{}
+.experiencia img{
+    object-fit: contain;
+    height: 280px;
+    width: 180px;
+}
+
 .experiencia_1 h3,
 .experiencia_2 h3 {
     letter-spacing: 3px;
+    margin: 0 auto;
+    font-size: 17px;
+}
+
+.tecnoLabel-container{
+    display: flex;
+    height: 16%;
+    width: 90%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.tecnoLabel{
+    background-color: rgb(78, 112, 133);
+    padding: 5px;
+    margin: 9px;
+    height: 20px;
+    border-radius: 12px;
 }
 
 
